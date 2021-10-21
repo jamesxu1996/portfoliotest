@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}        
+
+.about-me div {
+    position: absolute;
+    top: 30%;
+    background-color: palegreen;
+    margin: 50px;
+}
+
+.experience div {
+    margin-top: 50px;
+}
+
+section {
+    min-height: 100vh;
+    background-color: peachpuff
+}                
+
+h1 {
+    color: black;
+}
+
+h2{
+    color: darkgray
+}
+
+h3{
+    color: darkgray;
+}
+
+p {
+    color: darkgray;
+}
