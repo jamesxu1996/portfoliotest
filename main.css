@@ -1,12 +1,18 @@
 * {
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(54, 85, 172)
 }        
+
+html {
+    scroll-behavior: smooth;
+}
 
 .about-me div {
     position: absolute;
     top: 30%;
-    background-color: palegreen;
     margin: 50px;
 }
 
@@ -15,22 +21,52 @@
 }
 
 section {
+    margin-left: 290px;
     min-height: 100vh;
-    background-color: peachpuff
 }                
 
 h1 {
-    color: black;
+    color: rgb(54, 85, 172);
 }
 
 h2{
-    color: darkgray
+    color: rgb(54, 85, 172)
 }
 
 h3{
-    color: darkgray;
+    color: rgb(54, 85, 172);
 }
 
 p {
-    color: darkgray;
+    color: black;
+}
+
+nav {
+    min-height: 100vh;
+    width: 290px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: blanchedalmond;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav img {
+    height: auto;
+    max-width: 70%;
+    border-radius: 50%;
+    border: 5px solid rgb(190, 148, 85);
+}
+
+#travels {
+    margin-left: 290px;
+}
+
+.travels-entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
